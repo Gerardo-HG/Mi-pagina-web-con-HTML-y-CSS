@@ -1,0 +1,440 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+
+body{
+    background-color: #081b18;
+}
+.home{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    max-width: 600px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px 0px;
+    
+}
+.home-content h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ededed;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.home-content h2{
+    font-size: 2rem;
+    color: #F39999;
+}
+
+.img-content{
+    margin-top: 10%;
+}
+
+.img-content img{
+    border-radius: 10%;
+    float: right;
+}
+
+.social-media{
+    margin-bottom:30px;
+    padding: 10px;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+}
+
+.redes button{
+    margin: 5px 15px;
+}
+
+.education{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;;
+}
+
+.education-content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#volunteer, #fondo-edu{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0;
+}
+
+.place{
+    height: 300px;
+    border-radius: 50%;
+}
+
+.skills{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;;
+}
+
+#skills-content{
+    height: 80vh;
+    background-image: url(../assets/images/fondo-skills.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0;
+}
+
+.actividades{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;;
+}
+
+#actividades-content{
+    height: 80vh;
+    background-image: url("../assets/images/fondo-actividades.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgb(9, 34, 5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+
+}
+
+.navbar a:hover,
+.navbar a:active{
+    color: gold;
+}
+
+.home-content p{
+    font-size: 25px;
+    color: #ededed;
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+    background-color: #081b18;
+}
+
+.home {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 0;
+}
+
+.home-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ededed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home-content h2 {
+    font-size: 2rem;
+    color: #F39999;
+}
+
+.img-content {
+    margin-top: 10%;
+}
+
+.img-content img {
+    border-radius: 10%;
+    float: right;
+}
+
+.social-media {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+}
+
+.redes button {
+    margin: 5px 15px;
+}
+
+.education {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.education-content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#volunteer, #fondo-edu {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0;
+}
+
+.place {
+    height: 300px;
+    border-radius: 50%;
+}
+
+.skills {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+#skills-content {
+    height: 80vh;
+    background-image: url(../assets/images/fondo-skills.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Cambiado a cover para cubrir todo el contenedor */
+    background-position: center;
+}
+
+.actividades {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+#actividades-content {
+    height: 80vh;
+    background-image: url("../assets/images/fondo-actividades.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Cambiado a cover para cubrir todo el contenedor */
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgb(9, 34, 5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: gold;
+}
+
+.home-content p {
+    font-size: 25px;
+    color: #ededed;
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+/* Media Query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .home {
+        padding: 0 5%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .home-content {
+        margin-top: 50px;
+        height: auto;
+    }
+
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .img-content img {
+        width: 100%;
+        float: none;
+        border-radius: 5%;
+    }
+
+    .header {
+        padding: 10px 5%;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .social-media {
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    .place {
+        height: 200px;
+    }
+
+    .education-content,
+    #skills-content,
+    #actividades-content {
+        height: auto;
+        background-size: cover;
+    }
+}
+
+/* Media Query para pantallas medianas (tabletas) */
+@media (max-width: 992px) and (min-width: 769px) {
+    .home {
+        padding: 0 7%;
+        flex-direction: row;
+    }
+
+    .home-content {
+        margin-top: 75px;
+        height: auto;
+    }
+
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content h2 {
+        font-size: 1.75rem;
+    }
+
+    .img-content img {
+        width: 80%;
+    }
+
+    .header {
+        padding: 15px 7%;
+    }
+
+    .navbar a {
+        font-size: 17px;
+        margin-left: 30px;
+    }
+
+    .social-media {
+        padding: 8px;
+        margin-bottom: 25px;
+    }
+}
